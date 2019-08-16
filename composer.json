@@ -1,0 +1,21 @@
+{
+    "name": "jrg-matt/google-api",
+    "type": "library",
+    "description": "Google API library for PHP",
+    "keywords": ["google","api"],
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Matthew Orin Mitchum",
+            "email": "mmitchum@jrgstudio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl" : "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
